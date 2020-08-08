@@ -12,9 +12,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="35dp"
+            android:textSize="20dp"
             android:text="#Ma So"
-            android:textStyle="bold"
             android:id="@+id/txtMaSo"/>
     </TableRow>
     <TableRow android:padding="10dp">
@@ -22,16 +21,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tên bài hát: "
-            android:textSize="24dp"/>
+            android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10dp"
-            android:text="ABC"
-            android:textSize="24dp"
-            android:textStyle="bold"
-            android:textColor="#5e8cc8"
+            android:text="f"
+            android:textSize="20dp"
             android:id="@+id/txtTen"/>
     </TableRow>
     <TableRow android:padding="10dp">
@@ -39,31 +36,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lời bài hát: "
-            android:textSize="24dp"/>
+            android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10dp"
-            android:text="ABC"
-            android:textSize="24dp"
-            android:textColor="#5e8cc8"
+            android:text="f"
+            android:textSize="20dp"
             android:id="@+id/txtLoi"/>
     </TableRow>
-    <TableRow android:padding="10dp">
+    <TableRow
+        android:padding="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tác giả: "
-            android:textSize="24dp"/>
+            android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10dp"
-            android:text="ABC"
-            android:textSize="24dp"
-            android:textColor="#5e8cc8"
+            android:text="a"
+            android:textSize="20dp"
             android:id="@+id/txtTG"/>
     </TableRow>
     <TableRow android:padding="10dp">
@@ -73,11 +69,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Yêu thích: "
-                android:textSize="24dp"/>
+                android:textSize="20dp"/>
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
                 android:paddingLeft="15dp"
                 android:src="@drawable/love"
                 android:id="@+id/btnLove"/>

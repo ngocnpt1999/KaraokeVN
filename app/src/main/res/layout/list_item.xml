@@ -7,7 +7,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#096EB5"
         android:textStyle="bold"
         android:text="5000"
         android:textSize="30dp"
@@ -27,7 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:paddingEnd="10dp"
-        android:background="#ffffff"
         android:scaleType="fitCenter"
         android:src="@drawable/love"
         android:id="@+id/btnLike"/>
